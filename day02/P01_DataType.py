@@ -1,8 +1,6 @@
 """
     演示了数据类型
 """
-from binascii import b2a_qp
-
 """
 # 浮点数类型
 f1 = 0.1
