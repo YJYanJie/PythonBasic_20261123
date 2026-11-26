@@ -99,3 +99,4 @@ def dog(name:str='wc', age:(1, 99)=22, species:'狗狗的品种'='za') -> tuple:
     return (name, age, species)
 
 print(dog(11, 200, 'xxx'))
+print(dog.__annotations__)
