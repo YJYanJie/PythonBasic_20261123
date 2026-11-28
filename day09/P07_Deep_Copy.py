@@ -60,8 +60,11 @@ print(id(var3), var3)
 import copy
 
 tuple1 = (1, 2, 3)  # 元组只包含原子类型对象
-tuple1 = (1, 2, 3,[])  # 元组中包含了可变类型对象
+# tuple1 = (1, 2, 3,[])  # 元组中包含了可变类型对象
 print(id(tuple1), tuple1)
 
+# 浅拷贝
+# tuple2 = tuple1[:]
+# 深拷贝
 tuple2 = copy.deepcopy(tuple1)
 print(id(tuple2), tuple2)
